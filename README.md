@@ -31,30 +31,30 @@ that you rerun generate_graticules and Setup.
 
 This program relies on a specific file stack with meticulously named folders. Becasue you can not configure github repo with empty folders, I have given it bellow, assuming a base directory.
 
-Base:
-    Fake_Boulders_Script:
-        git:
-            fake-boulders:
-                nb:
+Base
+    Fake_Boulders_Script
+        git
+            fake-boulders
+                nb
                     Generate_Graticules.py
                     Setup.py
                     fbapi.py
                     Client.py
                     MLtools: (directory from https://github.com/yellowchocobo/MLtools)
                     rastertools: (directory from https://github.com/yellowchocobo/rastertools)
-    fakeboulders:
-          patches-with-boulders:
-              labels:
-              images:
-          patches-no-boulders:
-              labels:
-              images:
-          no_boulders:
-              shp:
-              raster:
-          mapping:
-              shp:
-              raster:
+    fakeboulders
+          patches-with-boulders
+              labels
+              images
+          patches-no-boulders
+              labels
+              images
+          no_boulders
+              shp
+              raster
+          mapping
+              shp
+              raster
         
       
   
