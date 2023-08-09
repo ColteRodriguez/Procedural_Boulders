@@ -1,0 +1,17 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <Description>BroadBand</Description>
+    <Metadata>
+      <MDI key="BANDWIDTH">300.000000</MDI>
+      <MDI key="BANDWIDTH_UNIT">nm</MDI>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">220</MDI>
+      <MDI key="STATISTICS_MEAN">54.136346148583</MDI>
+      <MDI key="STATISTICS_MINIMUM">4</MDI>
+      <MDI key="STATISTICS_STDDEV">25.68666029479</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">87.45</MDI>
+      <MDI key="WAVELENGTH">600.000000</MDI>
+      <MDI key="WAVELENGTH_UNIT">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

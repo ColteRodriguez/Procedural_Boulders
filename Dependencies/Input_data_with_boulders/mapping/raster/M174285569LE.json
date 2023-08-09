@@ -1,0 +1,470 @@
+{
+  "browse": "https://asc-pds-services.s3.us-west-2.amazonaws.com/upcimages/Lunar_Reconnaissance_Orbiter/LROC/EDR/LROLRC_0009/DATA/SCI/2011299/NAC/M174285569LE.browse.jpg",
+  "caminfo": {
+    "polygon": {
+      "mapping": {
+        "targetname": "MOON",
+        "polarradius": [
+          1737400,
+          "meters"
+        ],
+        "latitudetype": "Planetocentric",
+        "projectionname": "Sinusoidal",
+        "centerlongitude": 151.66940361549,
+        "longitudedomain": 360,
+        "maximumlatitude": -3.6671613391636,
+        "minimumlatitude": -4.7393086634167,
+        "pixelresolution": 0.54042873808576,
+        "equatorialradius": [
+          1737400,
+          "meters"
+        ],
+        "maximumlongitude": 151.72322842293,
+        "minimumlongitude": 151.62003827035,
+        "longitudedirection": "PositiveEast"
+      },
+      "surfacearea": [
+        90.169768455086,
+        "km^2"
+      ],
+      "centroidline": 26368.09018808,
+      "gisfootprint": "MULTIPOLYGON (((151.7110687076403792 -3.6671613763135098, 151.6594213925224608 -3.6674403842107206, 151.6200382852685209 -3.6676561558009579, 151.6204301758482131 -3.7263908244462862, 151.6208222631509273 -3.7850746910629880, 151.6212316577928334 -3.8437959485564477, 151.6216081809847083 -3.9025572157596238, 151.6219853044195531 -3.9613330864900758, 151.6223512575947439 -4.0200729486643256, 151.6227438533694567 -4.0788204826051011, 151.6231802448481574 -4.1375579017294140, 151.6236730477213825 -4.1962937789870329, 151.6241476900019620 -4.2550467703325667, 151.6245632274473110 -4.3138460084998638, 151.6250100209862239 -4.3726648132359687, 151.6254457990292508 -4.4314730855167959, 151.6258444192073398 -4.4902846595258490, 151.6262449935654502 -4.5490989861865625, 151.6266910902491816 -4.6079283938298436, 151.6271513884270803 -4.6667338638164590, 151.6275828101640570 -4.7255320868034687, 151.6276947359313851 -4.7393086251629564, 151.6819946968039687 -4.7390190580865834, 151.7232283627210734 -4.7387933650916603, 151.7218244285686808 -4.6799927356203250, 151.7207111316872101 -4.6211983783230135, 151.7199710201396385 -4.5623877448777570, 151.7191497817542825 -4.5035743358848395, 151.7186161330810421 -4.4447538867846141, 151.7184239445223000 -4.3859464495682374, 151.7176212097938048 -4.3271361460095203, 151.7160259549294778 -4.2683271534577720, 151.7145541324171631 -4.2095695793238574, 151.7133179174494160 -4.1508246049453570, 151.7128627310918318 -4.0920917109958914, 151.7124221336326855 -4.0333588301249774, 151.7122072407643145 -3.9746015476056953, 151.7116562408271818 -3.9158283157644949, 151.7112481418181176 -3.8570786274946371, 151.7112025780955946 -3.7983363967178692, 151.7113675976106322 -3.7396340332793461, 151.7111720850843994 -3.6809141815283133, 151.7110687076403792 -3.6671613763135098)))",
+      "lineincrement": 2864,
+      "centroidradius": [
+        1740719.6672865,
+        "meters"
+      ],
+      "centroidsample": 2521.7540664615,
+      "globalcoverage": [
+        0.000237,
+        "percent"
+      ],
+      "sampleincrement": 2864,
+      "centroidlatitude": -4.2081722979488,
+      "centroidlongitude": 151.66969627697
+    },
+    "camstats": {
+      "maximumphase": 34.492149208228,
+      "minimumphase": 31.531500011943,
+      "maximumemission": 3.1985802630209,
+      "maximumlatitude": -3.66717163037,
+      "minimumemission": 0.21504678192501,
+      "minimumlatitude": -4.7392983601728,
+      "localtimemaximum": 9.9246647857636,
+      "localtimeminimum": 9.9175944902824,
+      "maximumincidence": 31.399657295253,
+      "maximumlongitude": 151.72321891034,
+      "minimumincidence": 31.227354983263,
+      "minimumlongitude": 151.62004721204,
+      "maximumresolution": 0.58050438458366,
+      "minimumresolution": 0.5399379146426,
+      "obliqueresolutionmaximum": 0.58050864202326,
+      "obliqueresolutionminimum": 0.54005464734888
+    },
+    "geometry": {
+      "target": "MOON",
+      "endtime": "2011-10-26 16:25:22.021878",
+      "shadowx": -0.052388034896099,
+      "shadowy": 0.60597503496397,
+      "offnadir": 1.6532921757232,
+      "bandsused": 1,
+      "localtime": 9.9209810064698,
+      "parallaxx": 0.000419252524381895,
+      "parallaxy": -0.029772632461749,
+      "starttime": "2011-10-26 16:25:01.625816",
+      "centerline": 26112,
+      "phaseangle": 33.010724701844,
+      "declination": 2.4635436880063,
+      "centerradius": 1740790.8686764,
+      "centersample": 2532,
+      "hasnorthpole": false,
+      "hassouthpole": false,
+      "northazimuth": 269.53886370197,
+      "originalband": 1,
+      "emissionangle": 1.7055114009833,
+      "referenceband": 1,
+      "slantdistance": 54.990494274201,
+      "centerlatitude": -4.2029219260103,
+      "incidenceangle": 31.309445748713,
+      "lineresolution": 0.55020362470971,
+      "rightascension": 358.74867202829,
+      "solarlongitude": 312.88212020049,
+      "centerlongitude": 151.66940361549,
+      "pixelresolution": 0.55020362470971,
+      "subsolarazimuth": 184.17517271372,
+      "sampleresolution": 0.55020362470971,
+      "subsolarlatitude": -1.0301374058609,
+      "lowerleftlatitude": -4.7387855457991,
+      "subsolarlongitude": 182.85468851845,
+      "upperleftlatitude": -3.66717163037,
+      "lowerleftlongitude": 151.72321891034,
+      "lowerrightlatitude": -4.7392983601728,
+      "upperleftlongitude": 151.71106670253,
+      "upperrightlatitude": -3.6676639712009,
+      "lowerrightlongitude": 151.62769686994,
+      "upperrightlongitude": 151.62004721204,
+      "haslongitudeboundary": false,
+      "meangroundresolution": 0.56046699284071,
+      "subspacecraftazimuth": 0.36220318074854,
+      "targetcenterdistance": 1795.7577480814,
+      "obliquelineresolution": 0.55044747192869,
+      "subsolargroundazimuth": 85.058924159155,
+      "subspacecraftlatitude": -4.2036554458074,
+      "obliquepixelresolution": 0.55044747192869,
+      "subspacecraftlongitude": 151.61704872189,
+      "obliquesampleresolution": 0.55044747192869,
+      "obliquedetectorresolution": 0.55044747192869,
+      "subspacecraftgroundazimuth": 269.19322509947
+    },
+    "isislabel": {
+      "label": {
+        "bytes": 65536
+      },
+      "table": {
+        "name": "SunPosition",
+        "bytes": 112,
+        "field": {
+          "name": "ET",
+          "size": 1,
+          "type": "Double"
+        },
+        "kernels": [
+          "$lro/kernels/tspk/moon_pa_de421_1900-2050.bpc",
+          "$lro/kernels/tspk/de421.bsp"
+        ],
+        "records": 2,
+        "byteorder": "Lsb",
+        "cachetype": "Linear",
+        "startbyte": 1057927360,
+        "description": "Created by spiceinit",
+        "spktableendtime": 372918388.20433,
+        "spktablestarttime": 372918367.80827,
+        "spktableoriginalsize": 2
+      },
+      "history": {
+        "name": "IsisCube",
+        "bytes": 1711,
+        "startbyte": 1057927472
+      },
+      "isiscube": {
+        "core": {
+          "format": "Tile",
+          "pixels": {
+            "base": 0,
+            "type": "Real",
+            "byteorder": "Lsb",
+            "multiplier": 1
+          },
+          "startbyte": 65537,
+          "tilelines": 512,
+          "dimensions": {
+            "bands": 1,
+            "lines": 52224,
+            "samples": 5064
+          },
+          "tilesamples": 422
+        },
+        "archive": {
+          "mode": 7,
+          "bterms": [
+            0,
+            8,
+            25,
+            59,
+            128
+          ],
+          "mterms": [
+            0.5,
+            0.25,
+            0.125,
+            0.0625,
+            0.03125
+          ],
+          "xterms": [
+            0,
+            32,
+            136,
+            543,
+            2207
+          ],
+          "linecode": 51,
+          "uploadid": "SC_2011299_1403_A_V01.txt",
+          "datasetid": "LRO-L-LROC-2-EDR-V1.0",
+          "productid": "M174285569LE",
+          "producerid": "LRO_LROC_TEAM",
+          "compandcode": 0,
+          "orbitnumber": 10818,
+          "dacresetlevel": 199,
+          "dataqualityid": 0,
+          "channelaoffset": 33,
+          "channelboffset": 86,
+          "compressionflag": 1,
+          "lineexposurecode": 6,
+          "productversionid": "v1.8",
+          "originalproductid": "nacl0007b4bd",
+          "rationaledescription": "TARGET OF OPPORTUNITY",
+          "producerinstitutionname": "ARIZONA STATE UNIVERSITY"
+        },
+        "bandbin": {
+          "width": [
+            300,
+            "nm"
+          ],
+          "center": [
+            600,
+            "nm"
+          ],
+          "filtername": "BroadBand"
+        },
+        "kernels": {
+          "instrument": "$lro/kernels/ik/lro_lroc_v18.ti",
+          "leapsecond": "$base/kernels/lsk/naif0012.tls",
+          "shapemodel": "$base/dems/ldem_128ppd_Mar2011_clon180_radius_pad.cub",
+          "cameraversion": 2,
+          "naifframecode": -85600,
+          "targetposition": [
+            "Table",
+            "$lro/kernels/tspk/moon_pa_de421_1900-2050.bpc",
+            "$lro/kernels/tspk/de421.bsp"
+          ],
+          "spacecraftclock": "$lro/kernels/sclk/lro_clkcor_2022012_v00.tsc",
+          "instrumentaddendum": "$lro/kernels/iak/lro_instrumentAddendum_v04.ti",
+          "instrumentpointing": [
+            "Table",
+            "$lro/kernels/ck/lrolc_2011273_2011305_v03.bc",
+            "$lro/kernels/ck/moc42r_2011273_2011305_v04.bc",
+            "$lro/kernels/fk/lro_frames_2014049_v01.tf"
+          ],
+          "instrumentposition": [
+            "Table",
+            "$lro/kernels/spk/fdf29r_2011274_2011305_v01.bsp"
+          ],
+          "targetattitudeshape": [
+            "$base/kernels/pck/pck00009.tpc",
+            "$lro/kernels/pck/moon_080317.tf",
+            "$lro/kernels/pck/moon_assoc_me.tf"
+          ],
+          "instrumentpointingquality": "Reconstructed",
+          "instrumentpositionquality": "Reconstructed"
+        },
+        "instrument": {
+          "frameid": "LEFT",
+          "stoptime": "2011-10-26 16:25:22.022000",
+          "starttime": "2011-10-26 16:25:01.626000",
+          "targetname": "MOON",
+          "prerolltime": "2011-10-26 16:25:01.226000",
+          "instrumentid": "NACL",
+          "instrumentname": "LUNAR RECONNAISSANCE ORBITER NARROW ANGLE CAMERA LEFT",
+          "spacecraftname": "LUNAR RECONNAISSANCE ORBITER",
+          "spatialsumming": 1,
+          "temperaturefpa": [
+            20.08,
+            "degC"
+          ],
+          "temperaturescs": [
+            8.79,
+            "degC"
+          ],
+          "temperaturefpga": [
+            -7.79,
+            "degC"
+          ],
+          "instrumenthostid": "LRO",
+          "missionphasename": "SCIENCE MISSION",
+          "samplefirstpixel": 0,
+          "temperaturefparaw": 2004,
+          "temperaturescsraw": 2540,
+          "instrumenthostname": "LUNAR RECONNAISSANCE ORBITER",
+          "temperaturefpgaraw": 3258,
+          "lineexposureduration": [
+            0.3888,
+            "ms"
+          ],
+          "temperaturetelescope": [
+            8.6,
+            "degC"
+          ],
+          "temperaturetelescoperaw": 2549,
+          "spacecraftclockstopcount": "1/341339122:00194",
+          "spacecraftclockstartcount": "1/341339101:39774",
+          "spacecraftclockprerollcount": "1/341339101:13565"
+        }
+      },
+      "naifkeywords": {
+        "body_code": 301,
+        "body301_radii": [
+          1737.4,
+          1737.4,
+          1737.4
+        ],
+        "ins-85600_od_k": 0.0000181,
+        "body_frame_code": 31001,
+        "ins-85600_transx": [
+          0,
+          0,
+          0.007
+        ],
+        "ins-85600_transy": [
+          0,
+          0.007,
+          0
+        ],
+        "ins-85600_itransl": [
+          0,
+          142.857,
+          0
+        ],
+        "ins-85600_itranss": [
+          0,
+          0,
+          142.857
+        ],
+        "ins-85600_pixel_pitch": 0.007,
+        "ins-85600_focal_length": 699.62,
+        "ins-85600_boresight_line": 0,
+        "ins-85600_boresight_sample": 2548,
+        "ins-85600_additional_preroll": 1024,
+        "ins-85600_lt_surface_correct": true,
+        "ins-85600_additive_line_error": 0,
+        "ins-85600_multipli_line_error": 0.0045,
+        "ins-85600_constant_time_offset": 0,
+        "ins-85600_lighttime_correction": "NONE",
+        "ins-85600_swap_observer_target": true,
+        "clock_et_-85_1/341339101:13565_computed": "2e89685f483ab641"
+      },
+      "originallabel": {
+        "name": "IsisCube",
+        "bytes": 4413,
+        "startbyte": 1057915555
+      }
+    },
+    "parameters": {
+      "from": "M174285569LE.cub",
+      "bands": 1,
+      "lines": 52224,
+      "isisid": "LRO/1/341339101:39774/NACL",
+      "program": "caminfo",
+      "rundate": "2022-01-20 04:56:24",
+      "samples": 5064,
+      "isisversion": "3.10.2 | 2020-05-08"
+    },
+    "statistics": {
+      "meanvalue": 720.59367077889,
+      "percenthis": 0,
+      "percenthrs": 0,
+      "percentlis": 0,
+      "percentlrs": 0,
+      "percentnull": 0,
+      "totalpixels": 264462336,
+      "maximumvalue": 3343.5,
+      "minimumvalue": 28.5,
+      "standarddeviation": 344.75034255547
+    },
+    "originallabel": {
+      "image": {
+        "unit": "RAW_INSTRUMENT_COUNT",
+        "lines": 52224,
+        "sample_bits": 8,
+        "sample_type": "LSB_INTEGER",
+        "line_samples": 5064,
+        "md5_checksum": "95b193687cb26e9b274d6130a6a5240a"
+      },
+      "^image": 2,
+      "frame_id": "LEFT",
+      "lro:mode": 7,
+      "bandwidth": [
+        300,
+        "nm"
+      ],
+      "lro:bterm": [
+        0,
+        8,
+        25,
+        59,
+        128
+      ],
+      "lro:mterm": [
+        0.5,
+        0.25,
+        0.125,
+        0.0625,
+        0.03125
+      ],
+      "lro:xterm": [
+        0,
+        32,
+        136,
+        543,
+        2207
+      ],
+      "stop_time": "2011-10-26 16:25:22.022000",
+      "upload_id": "SC_2011299_1403_A_V01.txt",
+      "product_id": "M174285569LE",
+      "start_time": "2011-10-26 16:25:01.626000",
+      "data_set_id": "LRO-L-LROC-2-EDR-V1.0",
+      "producer_id": "LRO_LROC_TEAM",
+      "record_type": "FIXED_LENGTH",
+      "target_name": "MOON",
+      "file_records": 52225,
+      "mission_name": "LUNAR RECONNAISSANCE ORBITER",
+      "orbit_number": 10818,
+      "product_type": "EDR",
+      "record_bytes": 5064,
+      "instrument_id": "LROC",
+      "label_records": 1,
+      "lro:line_code": 51,
+      "pds_version_id": "PDS3",
+      "rationale_desc": "TARGET OF OPPORTUNITY",
+      "data_quality_id": 0,
+      "instrument_name": "LUNAR RECONNAISSANCE ORBITER CAMERA",
+      "lro:compand_code": 0,
+      "lro:preroll_time": "2011-10-26 16:25:01.226000",
+      "data_quality_desc": "The DATA_QUALITY_ID is set to an 8-bit value that encodes the following data quality information for the observation. For each bit a value of 0 means FALSE and a value of 1 means TRUE. More information about the data quality ID can be found in the LROC EDR/CDR SIS, section 3.3 'Label and Header Descriptions'. Bit 1: Temperature of focal plane array is out of bounds. Bit 2: Threshold for saturated pixels is reached. Bit 3: Threshold for under-saturated pixels is reached. Bit 4: Observation is missing telemetry packets. Bit 5: SPICE information is bad or missing. Bit 6: Observation or housekeeping information is bad or missing. Bit 7: Spare. Bit 8: Spare.",
+      "crosstrack_summing": 1,
+      "instrument_host_id": "LRO",
+      "mission_phase_name": "SCIENCE MISSION",
+      "product_version_id": "v1.8",
+      "lro:dac_reset_level": 199,
+      "lro:temperature_fpa": [
+        20.08,
+        "degC"
+      ],
+      "lro:temperature_scs": [
+        8.79,
+        "degC"
+      ],
+      "original_product_id": "nacl0007b4bd",
+      "instrument_host_name": "LUNAR RECONNAISSANCE ORBITER",
+      "lro:channel_a_offset": 33,
+      "lro:channel_b_offset": 86,
+      "lro:compression_flag": 1,
+      "lro:temperature_fpga": [
+        -7.79,
+        "degC"
+      ],
+      "product_creation_time": "2013-11-02 21:09:07",
+      "line_exposure_duration": [
+        0.3888,
+        "ms"
+      ],
+      "lro:line_exposure_code": 6,
+      "lro:temperature_fpa_raw": 2004,
+      "lro:temperature_scs_raw": 2540,
+      "center_filter_wavelength": [
+        600,
+        "nm"
+      ],
+      "lro:temperature_fpga_raw": 3258,
+      "lro:temperature_telescope": [
+        8.6,
+        "degC"
+      ],
+      "producer_institution_name": "ARIZONA STATE UNIVERSITY",
+      "spacecraft_clock_stop_count": "1/341339122:00194",
+      "spacecraft_clock_start_count": "1/341339101:39774",
+      "lro:temperature_telescope_raw": 2549,
+      "lro:spacecraft_clock_preroll_count": "1/341339101:13565"
+    }
+  },
+  "thumbnail": "https://asc-pds-services.s3.us-west-2.amazonaws.com/upcimages/Lunar_Reconnaissance_Orbiter/LROC/EDR/LROLRC_0009/DATA/SCI/2011299/NAC/M174285569LE.thumbnail.jpg"
+}
