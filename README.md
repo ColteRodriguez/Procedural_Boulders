@@ -31,8 +31,7 @@ that you rerun generate_graticules and Setup.
 
 This program relies on a specific file stack with meticulously named folders. Becasue you can not configure github repo with empty folders, I have given it bellow, assuming a base directory.
 
-Base
-    Fake_Boulders_Script
+Base:                                                                                                                                                                                    Fake_Boulders_Script
         git
             fake-boulders
                 nb
