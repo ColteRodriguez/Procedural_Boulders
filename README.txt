@@ -1,6 +1,25 @@
 # INSTRUCTIONS FOR USAGE AND TROUBLESHOOTING
 
-This code is a niche, backend only script which requires lost of external packages. The code must be run in the following steps:
+Note the required modules in MLtools and rastertools. To avoid racking up download space, I suggest using a conda environment and running the script in Jupyterlab. 
+
+Required Modules (not including MLtools and rastertools)
+- sys
+- math
+- random
+- numpy
+- matplotlib
+- pandas
+- geopandas
+- shapely
+- rasterio 
+- albumentations
+- cv2
+- os
+- pathlib
+- colorama (optional)
+
+
+This code is a backend script which requires lost of external packages. The code must be run in the following steps:
 
 1. Generate_Graticules.py
 2. Setup.py
@@ -10,8 +29,7 @@ For a given set of inputs (a sample input is given in the dependencies folder) y
 many times as you want for the input. However, changing the inputs (adding more rasters, shapefiles for the client to choose from) requires
 that you rerun generate_graticules and Setup.
 
-This program relies on a specific file stack with meticulously named folders. I have attempted to configure the
-github repository with this stack. However, in case this does not work, it is given bellow, assuming a base directory.
+This program relies on a specific file stack with meticulously named folders. Becasue you can not configure github repo with empty folders, I have given it bellow, assuming a base directory.
 
 Base:
     Fake_Boulders_Script:
