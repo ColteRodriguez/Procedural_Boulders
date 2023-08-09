@@ -14,27 +14,29 @@ This program relies on a specific file stack with meticulously named folders. I 
 github repository with this stack. However, in case this does not work, it is given bellow, assuming a base directory.
 
 Base:
-  Fake_Boulders_Script:
-    git:
-      fake-boulders:
-        nb:
-          Generate_Graticules.py
-          Setup.py
-          fbapi.py
-          Client.py          
+    Fake_Boulders_Script:
+        git:
+            fake-boulders:
+                nb:
+                    Generate_Graticules.py
+                    Setup.py
+                    fbapi.py
+                    Client.py
+                    MLtools: (directory from https://github.com/yellowchocobo/MLtools)
+                    rastertools: (directory from https://github.com/yellowchocobo/rastertools)
     fakeboulders:
-      patches-with-boulders:
-        labels:
-        images:
-      patches-no-boulders:
-        labels:
-        images:
-      no_boulders:
-        shp:
-        raster:
-      mapping:
-        shp:
-        raster:
+          patches-with-boulders:
+              labels:
+              images:
+          patches-no-boulders:
+              labels:
+              images:
+          no_boulders:
+              shp:
+              raster:
+          mapping:
+              shp:
+              raster:
         
       
   
