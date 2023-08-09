@@ -29,7 +29,7 @@ For a given set of inputs (a sample input is given in the dependencies folder) y
 many times as you want for the input. However, changing the inputs (adding more rasters, shapefiles for the client to choose from) requires
 that you rerun generate_graticules and Setup.
 
-This program relies on a specific file stack with meticulously named folders. Becasue you can not configure github repo with empty folders, I have given it bellow, assuming a base directory.
+This program relies on a specific file stack with meticulously named folders. Becasue you can not configure github repo with empty folders, I have given it bellow (available in raw view), assuming a base directory.
 
 Base:                                                                                                                                                                                    Fake_Boulders_Script
         git
