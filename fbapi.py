@@ -150,8 +150,9 @@ def shadow_len(area, AOI):
 def compute_coverage(rim_dist): 
     return int(176.14 * ((rim_dist + 0.5) ** -0.746))
 
-# These function conute the density of each size class as a percent of the total density. Cumulative density by size class is 
+# These function compute the density of each size class as a percent of the total density. Cumulative density by size class is 
 # typically within +- 8% of the ideal density
+# These CSFD functions are poorly aproximated and will be updated in the near future
 def small_density(rim_dist):
     return int((1.719 + (0.072 * np.log(rim_dist)) - 0.94) * compute_coverage(rim_dist))
 
@@ -165,7 +166,7 @@ def large_density(rim_dist):
 def CDBSC(rim_dist):
     return small_density(rim_dist) + mid_density(rim_dist) + large_density(rim_dist)
 
-
+# I make devs cower in fear with my garbage code
 def generate_fake_boulders(rim_distance, AOI, fancy_shadows, gdf_boulders, target_raster_noisey):
     # Boudler generating specs
     i = 0.0                                                                                                               # Iterable
