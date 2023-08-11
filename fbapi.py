@@ -40,7 +40,7 @@ transform = A.Compose([
              mode=0, cval=0, cval_mask=0, keep_ratio=True, p=1.0)])
 
 
-# From "Producing 2d Perlin Noise with numpy." Inquiry by user:4303737, answered by user:7207392. https://stackoverflow.com/questions/42147776/producing-2d-perlin-noise-with-numpy/42154921#42154921
+# Modified from "Producing 2d Perlin Noise with numpy." Inquiry by user:4303737, answered by user:7207392. https://stackoverflow.com/questions/42147776/producing-2d-perlin-noise-with-numpy/42154921#42154921
 def generate_target_noise(rim_distance, target, is_mare):
     def perlin(x, y, seed=0):
         # permutation table
@@ -187,6 +187,10 @@ def generate_fake_boulders(rim_distance, AOI, fancy_shadows, gdf_boulders, targe
     shadow_coords = []                                                                                                    # for s-b overlap
     
     # Generate randomized groupings using Perlin
+    '''
+    Groupings are currently generated as a low-threshold noise map. In future versions, a location argument 
+    will be passed to generate groupings which simulate ejecta rays.
+    '''
     bools = [True, True, True, True, True, True, False, False, False, False]
     groupings = np.zeros((500,500))
     for i in range(4):
@@ -298,6 +302,7 @@ def generate_fake_boulders(rim_distance, AOI, fancy_shadows, gdf_boulders, targe
                                     shadow_coords.append((py, px))
                                         
         # (Optional) recomended for higher AOI
+        # DEPRICATED. apply_blur_transformation() now handles boulder/shadow/background raster shading.
         if fancy_shadows:
             for coord in shadow_coords: 
                 y, x = coord[0], coord[1]
