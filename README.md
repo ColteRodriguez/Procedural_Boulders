@@ -19,7 +19,7 @@ Required Modules (not including MLtools and rastertools)
 - colorama (optional)
 
 
-This code is a backend script which requires lost of external packages. The code must be run in the following steps:
+The code must be run in the following steps:
 
 1. Generate_Graticules.py
 2. Setup.py
