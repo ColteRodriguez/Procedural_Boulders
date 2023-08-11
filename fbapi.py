@@ -99,6 +99,7 @@ def generate_target_noise(rim_distance, target, is_mare):
 
     return target_raster_noisey
 
+# Defining the perlin algorithm outside of generate_target_noise(). Redundant but I couln't get the code to run without doing this so
 def perlin(x, y, seed=0):
         # permutation table
         np.random.seed(seed)
